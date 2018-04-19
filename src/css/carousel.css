@@ -1,19 +1,25 @@
-.banner {
+/*.carousel{
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 16px;
+    .banner_inner{
+        display: block;
+        width: 1200px;
+        background-color: #fff;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        height: 430px;
+        z-index: 0;
+        zoom: 1;
+    }
+}*/
+#myCarousel {
   width: 1200px;
   height: 430px;
   margin: 0 auto;
   margin-top: 16px;
-}
-.banner .banner_inner {
-  display: block;
-  width: 1200px;
-  background-color: #fff;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
-  height: 430px;
-  z-index: 0;
-  zoom: 1;
 }
 
 /*# sourceMappingURL=carousel.css.map */

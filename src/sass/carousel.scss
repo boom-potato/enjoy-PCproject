@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.banner{
+/*.carousel{
     width: 1200px;
     height: 430px;
     margin: 0 auto;
@@ -15,4 +15,10 @@
         z-index: 0;
         zoom: 1;
     }
+}*/
+#myCarousel{
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+    margin-top: 16px;
 }
