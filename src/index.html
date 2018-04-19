@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<script src="lib/requirejs/require.js" data-main="js/index"></script>
+	<link rel="stylesheet" href="/css/index.css">
+	<!-- 轮播图样式 -->
+	<link rel="stylesheet" type="text/css" href="/css/
+	carousel.css">
+</head>
+<body>
+	<!-- 头部资源 -->
+	<div class="header"></div>
+
+	<!-- 轮播图 -->
+	<div class="banner">
+		<div class="banner_inner"></div>
+			<script type="text/html" id="carousel_temp">
+			{{each carousel as pic}}
+				<div class="carousel_box">
+					<div class="id" style="display: none;">{{pic.id}}</div>
+					<div class="img">
+						<img src="{{pic.img}}">
+					</div>	
+				</div>
+			{{/each}}
+				
+			</script>
+			
+		
+	</div>
+
+<!-- 例子 -->
+	<div class="main">
+		<h1>商品列表信息</h1>
+		<div class="list"></div>
+		<script type="text/html" id="list_template">
+			{{each list as prod}}
+				<div class="prod">
+					<div class="id">{{prod.id}}</div>
+					<div class="title">{{prod.title}}</div>
+					<div class="price">{{prod.price}}</div>
+					<div class="img">{{prod.img}}</div>
+				</div>
+			{{/each}}
+		</script>
+	</div>
+
+
+	<!-- 尾部资源 -->
+	<div class="footer"></div>
+
+
+
+</body>
+</html>
