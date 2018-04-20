@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/*重置样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+body{
+    font-size: 12px;
+    }
+img { border:none; }
+ul li{ list-style:none; } 
+a{text-decoration:none; }
+
+
+.registBox{
+	width: 1200px;
+	height: 460px;
+	margin: 0 auto;
+	margin-top: 50px;
+	border: 1px solid;
+	box-sizing: border-box;
+	.logo{
+		margin-left: 131px;
+    	margin-top: 43px;
+    	/*border: 1px solid red;*/
+    	height: 90px;
+	}
+	.registMain{
+		width: 1068px;
+		height: 370px;
+		border: 1px solid gold;
+		margin-left: 131px;
+		.Regist{
+			width: 332px;
+			height: 42px;
+			boreder: 1px solid;
+			ul{
+				width: 332px;
+				height: 42px;
+				border: 1px solid #5e5e5e;
+			    margin-left: 17px;
+				li{
+					width: 166px;
+					height: 42px;
+					line-height: 42px;
+					text-align: center;
+					float: left;
+					cursor: pointer;
+				}
+				.li01{
+					a{
+						color: white;
+						font-size: 16px;
+					}
+    				background: #4CCDC2;
+    				&:hover{
+    					background: white;
+    					a{color: black;}
+    					
+    				}
+				}
+				.li02{
+					a{
+						color: black;
+						font-size: 16px;
+					}
+					color: #ffffff;
+					&:hover{
+						background: #4CCDC2;
+						a{color: white;}
+					}
+				}
+			}
+		}
+	}
+}

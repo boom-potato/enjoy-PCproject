@@ -1,7 +1,7 @@
 {
   "name": "hengo",
   "version": "1.0.0",
-  "description": "",
+  "description": "享购项目搭建：\r     主页\r     登录\r     注册\r     详情页\r     购物车",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +16,17 @@
     "gulp-clean-css": "^3.9.3",
     "gulp-connect": "^5.5.0",
     "gulp-htmlmin": "^4.0.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boom-potato/enjoy-PCproject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/boom-potato/enjoy-PCproject/issues"
+  },
+  "homepage": "https://github.com/boom-potato/enjoy-PCproject#readme",
+  "keywords": []
 }
