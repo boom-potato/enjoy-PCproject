@@ -1,0 +1,16 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {"id":1, "title":"数码", "name" : "iconfont icon-xiangji-copy"},
+            {"id":2, "title":"配件", "name" : "iconfont icon-dengpao-copy"}
+            
+           
+        ]
+    }
+}
+
+
+
+

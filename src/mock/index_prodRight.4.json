@@ -1,0 +1,18 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {"id":1, "title":"SOLOWHEEL 电动平衡车", "price": 2199.00, "img":"/images/1492582391.png", "sale":"已售136件"},
+            {"id":2, "title":"新秀丽 化妆洗漱二合一多用途包", "price": 159.00, "img":"/images/1492582691.png", "sale":"已售159件"},
+            {"id":3, "title":"精工(SEIKO) 石英男表", "price": 1700.00, "img":"/images/1484890411.png", "sale":"已售254件"},
+            {"id":4, "title":"朗坤(Laco) 男款机械表", "price": 2799.00, "img":"/images/1464327882.jpg", "sale":"已售137件"},
+            {"id":5, "title":"Rfactory R-wallet楔形钱包 蓝鳄鱼", "price": 1380.00, "img":"/images/1468551038.png", "sale":"已售658件"},
+            {"id":6, "title":"Thule拓乐 电脑包 （送蝙蝠侠咖啡杯）", "price": 598.00, "img":"/images/1478850473.png", "sale":"已售785件"},
+            {"id":7, "title":"Rfactory Monster 怪兽中号 双肩包", "price": 3380.00, "img":"/images/1476082956.jpg", "sale":"已售384件"},
+            {"id":8, "title":"雷朋(RayBan) 太阳墨镜", "price": 1350.00, "img":"/images/1450410017.png", "sale":"已售100件"}
+        ]
+    }
+}
+
+

@@ -1,0 +1,19 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {"id":1, "title":"红酒", "name" : "iconfont icon-jiushuihongjiuhongjiubei-copy"},
+            {"id":2, "title":"白酒", "name" : "iconfont icon-jiushui-copy"},
+            {"id":3, "title":"洋酒", "name" : "iconfont icon-hongjiu-copy"},
+            {"id":4, "title":"冲调", "name" : "iconfont icon-yezi-copy"},
+            {"id":5, "title":"杂粮", "name" : "iconfont icon-liangyouganhuo-copy"},
+            {"id":6, "title":"调味", "name" : "iconfont icon-tiaowei-copy"},
+            {"id":7, "title":"生鲜", "name" : "iconfont icon-shengxian-copy"},
+            {"id":8, "title":"干货", "name" : "iconfont icon-wheat__easyic-copy"},
+            {"id":9, "title":"零食", "name" : "iconfont icon-tangguo-copy"},
+            {"id":10, "title":"食用油", "name" : "iconfont icon-liangyouganhuo1-copy"}
+        ]
+    }
+}
+

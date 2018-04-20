@@ -1,0 +1,16 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {"id":1, "title":"护理", "name" : "iconfont icon-neiku-copy"},
+            {"id":2, "title":"玩具", "name" : "iconfont icon-qiche-copy"},
+            {"id":3, "title":"用品", "name" : "iconfont icon-naizui-copy"},
+            {"id":4, "title":"箱包", "name" : "iconfont icon-shubao-copy"},
+            {"id":5, "title":"出行", "name" : "iconfont icon-yingerche-copy"}
+           
+        ]
+    }
+}
+
+

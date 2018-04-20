@@ -1,0 +1,19 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {"id":1, "title":"厨具", "name" : "iconfont icon-weibiaoti2fuzhi10-copy"},
+            {"id":2, "title":"摆件", "name" : "iconfont icon-zhong-copy"},
+            {"id":3, "title":"茶具", "name" : "iconfont icon-chabei-copy"},
+            {"id":4, "title":"床品", "name" : "iconfont icon-chuang-copy"},
+            {"id":5, "title":"酒具", "name" : "iconfont icon-icon---copy"},
+            {"id":6, "title":"收纳", "name" : "iconfont icon-shounawenjian-copy-copy"},
+            {"id":7, "title":"水具", "name" : "iconfont icon-shuihu-copy"},
+            {"id":8, "title":"清洁", "name" : "iconfont icon-qingjie-copy"},
+            {"id":9, "title":"电器", "name" : "iconfont icon-taideng-copy"},
+            {"id":10, "title":"保温杯", "name" : "iconfont icon-baowenbei-copy"}
+        ]
+    }
+}
+

@@ -9,6 +9,9 @@
 	<!-- 轮播图样式 -->
 	<link rel="stylesheet" type="text/css" href="/css/
 	carousel.css">
+	<!-- Iconfont inport -->
+	<link rel="stylesheet" type="text/css" href="lib/font_8vzk6mk97p41v2t9/iconfont.css">
+
 </head>
 <body>
 	<!-- 头部资源 -->
@@ -55,24 +58,262 @@
 	</a>
 </div>
 
+<!-- publictitle 商品推荐-->
+<div class="publictitle">
+	<img src="/images/popular.png">
+</div>
 
-<!-- 例子 -->
-	<div class="main">
-		<h1>商品列表信息</h1>
-		<div class="list"></div>
-		<script type="text/html" id="list_template">
-			{{each list as prod}}
-				<div class="prod">
-					<div class="id">{{prod.id}}</div>
+<!-- 人气单品 -->
+	<div class="popular">
+		<div class="popular_list"></div>
+		<script type="text/html" id="popular_tem">
+			{{each popular as prod}}
+				<div class="popularBox">
+					<div class="id" style="display: none;">{{prod.id}}</div>
+					<a href=""><img src="{{prod.img}}" class="img"></a>
 					<div class="title">{{prod.title}}</div>
-					<div class="price">{{prod.price}}</div>
-					<div class="img">{{prod.img}}</div>
+					<div class="price">￥{{prod.price}}</div>
+					<span class="sale">{{prod.sale}}</span>
 				</div>
 			{{/each}}
 		</script>
 	</div>
 
+	<!-- 商品分类层数5层 -->
+	<!-- 生活用品，健康生活，母婴用品，时尚创意，智能科技 -->
 
+	<!-- 第一层 -->
+	<div class="floor1 navigation">
+		<div class="floorBox">
+			<!-- 楼层标题 -->
+			<div class="floor_title">
+				<a href="">生活用品</a>
+			</div>
+			<!-- 下边大盒子 -->
+			<div class="floor_box">
+				<!-- 盒子左边的导航 -->
+				<div class="bannerLeftList">
+					<ul class="themes">
+						<script type="text/html" id="healthNav_temp">
+							{{each healthNav as prod}}
+								<li>
+									<div class="id" style="display: none;">{{prod.id}}</div>
+									<a href="">
+									<i class="{{prod.name}}">{{prod}}</i>
+									<span class="title">{{prod.title}}</span>
+									</a>
+								</li>
+							{{/each}}
+						</script>
+						
+					</ul>
+				</div>
+				<!-- <script src="lib/font_8vzk6mk97p41v2t9/iconfont.js"></script> -->
+				<!-- 盒子右边的导航 -->
+				<div class="bannerRightList">
+					<!-- <div class="health_life"></div> -->
+					<script type="text/html" id="health_temp">
+						{{each health as prod}}
+							<div class="prod">
+								<div class="id" style="display: none;">{{prod.id}}</div>
+								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<div class="title">{{prod.title}}</div>
+								<div class="price">￥{{prod.price}}</div>
+								<div class="sale">{{prod.sale}}</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+<!-- 第二层 -->
+<div class="navigation" id="floor2"> 
+		<div class="floorBox">
+			<!-- 楼层标题 -->
+			<div class="floor_title">
+				<a href="">健康食品</a>
+			</div>
+			<!-- 下边大盒子 -->
+			<div class="floor_box">
+				<!-- 盒子左边的导航 -->
+				<div class="bannerLeftList">
+					<ul class="themes" id="themes2">
+						<script type="text/html" id="healthNav_temp">
+							{{each healthNav as prod}}
+								<li>
+									<div class="id" style="display: none;">{{prod.id}}</div>
+									<a href="">
+									<i class="{{prod.name}}">{{prod}}</i>
+									<span class="title">{{prod.title}}</span>
+									</a>
+								</li>
+							{{/each}}
+						</script>
+						
+					</ul>
+				</div>
+				<!-- <script src="lib/font_8vzk6mk97p41v2t9/iconfont.js"></script> -->
+				<!-- 盒子右边的导航 -->
+				<div class="bannerRightList" id="bannerRightList2">
+					<!-- <div class="health_life"></div> -->
+					<script type="text/html" id="health_temp">
+						{{each health as prod}}
+							<div class="prod">
+								<div class="id" style="display: none;">{{prod.id}}</div>
+								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<div class="title">{{prod.title}}</div>
+								<div class="price">￥{{prod.price}}</div>
+								<div class="sale">{{prod.sale}}</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 第三层 -->
+<div class="navigation" id="floor3"> 
+		<div class="floorBox">
+			<!-- 楼层标题 -->
+			<div class="floor_title">
+				<a href="">时尚臻藏</a>
+			</div>
+			<!-- 下边大盒子 -->
+			<div class="floor_box">
+				<!-- 盒子左边的导航 -->
+				<div class="bannerLeftList">
+					<ul class="themes" id="themes3">
+						<script type="text/html" id="healthNav_temp">
+							{{each healthNav as prod}}
+								<li>
+									<div class="id" style="display: none;">{{prod.id}}</div>
+									<a href="">
+									<i class="{{prod.name}}">{{prod}}</i>
+									<span class="title">{{prod.title}}</span>
+									</a>
+								</li>
+							{{/each}}
+						</script>
+						
+					</ul>
+				</div>
+				<!-- <script src="lib/font_8vzk6mk97p41v2t9/iconfont.js"></script> -->
+				<!-- 盒子右边的导航 -->
+				<div class="bannerRightList" id="bannerRightList3">
+					<!-- <div class="health_life"></div> -->
+					<script type="text/html" id="health_temp">
+						{{each health as prod}}
+							<div class="prod">
+								<div class="id" style="display: none;">{{prod.id}}</div>
+								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<div class="title">{{prod.title}}</div>
+								<div class="price">￥{{prod.price}}</div>
+								<div class="sale">{{prod.sale}}</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 第四层 -->
+<div class="navigation" id="floor4"> 
+		<div class="floorBox">
+			<!-- 楼层标题 -->
+			<div class="floor_title">
+				<a href="">时尚臻藏</a>
+			</div>
+			<!-- 下边大盒子 -->
+			<div class="floor_box">
+				<!-- 盒子左边的导航 -->
+				<div class="bannerLeftList">
+					<ul class="themes" id="themes4">
+						<script type="text/html" id="healthNav_temp">
+							{{each healthNav as prod}}
+								<li>
+									<div class="id" style="display: none;">{{prod.id}}</div>
+									<a href="">
+									<i class="{{prod.name}}">{{prod}}</i>
+									<span class="title">{{prod.title}}</span>
+									</a>
+								</li>
+							{{/each}}
+						</script>
+						
+					</ul>
+				</div>
+				<!-- <script src="lib/font_8vzk6mk97p41v2t9/iconfont.js"></script> -->
+				<!-- 盒子右边的导航 -->
+				<div class="bannerRightList" id="bannerRightList4">
+					<!-- <div class="health_life"></div> -->
+					<script type="text/html" id="health_temp">
+						{{each health as prod}}
+							<div class="prod">
+								<div class="id" style="display: none;">{{prod.id}}</div>
+								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<div class="title">{{prod.title}}</div>
+								<div class="price">￥{{prod.price}}</div>
+								<div class="sale">{{prod.sale}}</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- 第五层 -->
+<div class="navigation" id="floor5"> 
+		<div class="floorBox">
+			<!-- 楼层标题 -->
+			<div class="floor_title">
+				<a href="">智能科技</a>
+			</div>
+			<!-- 下边大盒子 -->
+			<div class="floor_box">
+				<!-- 盒子左边的导航 -->
+				<div class="bannerLeftList">
+					<ul class="themes" id="themes5">
+						<script type="text/html" id="healthNav_temp">
+							{{each healthNav as prod}}
+								<li>
+									<div class="id" style="display: none;">{{prod.id}}</div>
+									<a href="">
+									<i class="{{prod.name}}">{{prod}}</i>
+									<span class="title">{{prod.title}}</span>
+									</a>
+								</li>
+							{{/each}}
+						</script>
+						
+					</ul>
+				</div>
+				<!-- <script src="lib/font_8vzk6mk97p41v2t9/iconfont.js"></script> -->
+				<!-- 盒子右边的导航 -->
+				<div class="bannerRightList" id="bannerRightList5">
+					<!-- <div class="health_life"></div> -->
+					<script type="text/html" id="health_temp">
+						{{each health as prod}}
+							<div class="prod">
+								<div class="id" style="display: none;">{{prod.id}}</div>
+								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<div class="title">{{prod.title}}</div>
+								<div class="price">￥{{prod.price}}</div>
+								<div class="sale">{{prod.sale}}</div>
+							</div>
+						{{/each}}
+					</script>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
 	<!-- 尾部资源 -->
 	<div class="footer"></div>
 

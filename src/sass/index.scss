@@ -125,65 +125,246 @@ a{text-decoration:none; }
             }
         }
     }
-    
 }
 
+/* publictitle 人气商品 */
+.publictitle{
+    margin: 59px 0 36px;
+    text-align: center;
+}
 
+/* 人气商品排版 */
+.popular_list{
+    width: 1200px;
+    height: 331px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .popularBox{
+        width: 271px;
+        height: 311px;
+        border: 1px solid #dddddd;
+         .img{
+         vertical-align: middle;
+         display: table-cell;
+         text-align: center;
+         margin: auto;
+        }
+        .title{
+            text-align: center;
+            font-size: 14px;
+        }
+        .price{
+            color: #e63131;
+            /*margin-right: 99px;*/
+            font-size: 20px;
+            float: left;
+            margin-top: 10px;
+        }
+        .sale{
+            float: right;
+            margin-right: 8px;
+            margin-top: 10px;
+        }
+    }
+}
 
+/* 商品分类 */
+.navigation{
+    width: 1200px;
+    height: 774px;
+   /* border: 1px solid red;*/
+    margin: 0 auto;
+    box-sizing: border-box;
+    .floorBox{
+        .floor_title{
+                display: block;
+                padding: 50px 0 4px;
+                font-size: 24px;
+                a{color: #F4D526;}
+            }
+        .floor_box{
+            width: 1200px;
+            height: 682px;
+            /*float: left;*/
+            border-top: 3px solid #F4D526;
+            /*盒子左边的导航*/
+            .bannerLeftList{
+                float: left;
+                width: 240px;
+                height: 682px;
+                background: url(/images/daily-left.jpg) no-repeat;
+                .themes{
+                    width: 240px;
+                    height: 280px;
+                    /*border: 1px solid;*/
+                    padding-left: 20px;
+                    padding-top: 40px;
+                    li{
+                        width: 98px;
+                        height: 26px;
+                        margin-bottom: 20px;
+                        line-height: 30px;
+                        float: left;
+                        i{
+                            color: #F4D526;
+                            font-size: 26px;
+                        }
+                        span{
+                            color: #F4D526;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            /*盒子右边的导航*/
+            .bannerRightList{
+                width: 960px;
+                height: 682px;
+                /*border: 1px solid;*/
+                float: right;
+                display: flex;
+                flex-flow: wrap;
+                justify-content: space-between;
 
+                .prod{
+                    width: 240px;
+                    height: 341px;
+                   /* border: 1px solid;*/
+                    border-bottom: 1px solid #d2d2d2;
+                    border-right: 1px solid #d2d2d2;
+                    .img{
+                        vertical-align: middle;
+                        display: table-cell;
+                        text-align: center;
+                        margin: auto;
+                        width: 230px;
+                        height: 230px;
+                    }
+                    .title{
+                        text-align: center;
+                        font-size: 14px;
+                        height: 40px;
+                        color: #000000;
+                    }
+                    .price{
+                        color: #e63131;
+                        /*margin-right: 86px;*/
+                        font-size: 20px;
+                        margin-top: 30px;
+                        margin-left: 6px;
+                        float: left;
+                    }
+                    .sale{
+                        margin-top: 30px;
+                        float: right;
+                        margin-right: 15px; 
+                    }
+                }
+            }
+        }
+    }
+}
 
+/* 第二层样式 */
+#floor2{
+    .floorBox{
+        .floor_title{
+            a{color: #97D054;}
+        }
+        .floor_box{border-top: 3px solid #97D054;}
+        .bannerLeftList{
+             background: url(/images/daily-health.jpg) no-repeat;
+            .themes{
+                li{
+                     i{
+                        color: #97D054;
+                        font-size: 26px;
+                    }
+                    span{
+                        color: #97D054;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
+/* 第三层样式 */
+#floor3{
+    .floorBox{
+        .floor_title{
+            a{color: #FF8AA8;}
+        }
+        .floor_box{border-top: 3px solid #FF8AA8;}
+        .bannerLeftList{
+             background: url(/images/daily-baby.jpg) no-repeat;
+            .themes{
+                li{
+                     i{
+                        color: #FF8AA8;
+                        font-size: 26px;
+                    }
+                    span{
+                        color: #FF8AA8;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
+/* 第四层样式 */
+#floor4{
+    .floorBox{
+        .floor_title{
+            a{color: #8F82BC;}
+        }
+        .floor_box{border-top: 3px solid #8F82BC;}
+        .bannerLeftList{
+             background: url(/images/daily-fashion.jpg) no-repeat;
+            .themes{
+                li{
+                     i{
+                        color: #8F82BC;
+                        font-size: 26px;
+                    }
+                    span{
+                        color: #8F82BC;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* 第五层样式 */
+#floor5{
+    .floorBox{
+        .floor_title{
+            a{color: #59beef;}
+        }
+        .floor_box{border-top: 3px solid #59beef;}
+        .bannerLeftList{
+             background: url(/images/zhinengkeji.jpg) no-repeat;
+            .themes{
+                li{
+                     i{
+                        color: #59beef;
+                        font-size: 26px;
+                    }
+                    span{
+                        color: #59beef;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -192,7 +373,7 @@ a{text-decoration:none; }
     border-top: 12px solid #4bcdc1;
     width: 100%;
     height: 345px;
-   
+   margin-top: 102px;
     box-sizing: border-box;
     padding-top: 45px;
     .footer_nav{
