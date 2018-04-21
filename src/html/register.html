@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="/css/registerCSS/detailone.css">
+	<link rel="stylesheet" type="text/css" href="/css/registerCSS/reset.css">
+	<link rel="stylesheet" type="text/css" href="/css/
+	registerCSS/style.css">
+	<!-- <script src="/lib/jquery/jquery-1.12.4.min.js"></script> -->
+</head>
+<body class="news_logo">
+	<div class="logo_sign">
+    	<div class="logo_banner">
+    		<a href=""><img src="/images/logo.png" /></a>
+    	</div>
+        <div class="logo_main">
+            <div class="logo_s_main logo_s3_main">
+                <div class="isgo-login-l">
+                    <div class="ctab clearfix" style="margin-left: 17px;">
+                        <ul class="clearfix">
+                            <li id="one1" class="current">
+                                <a href="/html/register.html">邮箱注册</a>
+                            </li>
+                            <li id="one2">
+                                <a href="/html/phoneRegister.html">手机注册</a>
+                            </li>
+                        </ul>
+                    </div>
+            <h3>新会员注册</h3>
+            <div class="clear"></div>
+                <form id="regForm" name="userRegForm" method="post" action="register" >
+                    <input type="hidden" name="registerWay" value="1">
+                    <input type="hidden" name="registerWayIphone" value="1">
+                    <input type="hidden" name="bean.customerType" value="0">
+                    <input type="hidden" name="bean.levelId" value="system">
+                    <input type="hidden" name="userId" value="" />
+                    <input type="hidden" name="bean.name" class="login-input">
+                <div id="error_div" style="padding-bottom: 10px;margin: 10px 95px;">
+                </div>
+                <table class="isgo-login-table" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td width="110" align="right">
+                            	<div class="span1">账号：</div>
+                            </td>
+                            <td>
+                                <input type="text" name="account" maxlength="35" id="focusCur" class="isgo-login-text" placeholder="请输入邮箱号">
+                                <input type="hidden" name="iserror" value="0">
+                            </td>
+                            <td>
+                                <div class="tt"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">
+                            	<div class="span1">设置密码：</div></td>
+                            <td>
+                            	<input type="password" id="passwordInput" name="bean.password" class="isgo-login-text" maxlength="20">
+                            </td>
+                            <td>
+                                <div class="tt"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right"><div class="span1">确认密码：</div></td>
+                                <td>
+                                    <input name="repassword" class="isgo-login-text" type="password" onpaste="return false" value="" maxlength="20">
+                                </td>
+                                <td>
+                                    <div class="tt"></div>
+                                </td>
+                        </tr>
+                        <tr id="tr_validateCode">
+                            <td align="right"><div class="span1">验证码：</div></td>
+                            <td>
+                                <input type="text" name="validateCode" maxlength="4" style="width:110px" class="isgo-login-text"/>
+                                <img class="img_yz" id="validateImg">
+                                <!-- <script type="text/javascript">
+                                $(document).ready(function () {
+                                flushValidateCode('validateImg','');
+                                var oInput = document.getElementById("focusCur");
+                                oInput.focus();
+                                });
+                                </script> -->
+                            </td>
+                            <td>
+                                <div class="tt" id="validateCode_msg"></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right"></td>
+                            <td>
+                                <ul id="readUl" style="overflow:hidden; width:100%; padding:0px;">
+                                    <li class="fuwu" style="padding-bottom:0px;height: 25px;overflow: hidden;width: 168px;line-height: 30px;font-size: 14px;zoom: 1;vertical-align: middle;">
+                                        <div>
+                                        <input style="float: left;height: 20px;line-height: 22px;margin-top: 5px;" type="checkbox" id="readerId" name="reader" checked />
+                                        </div> 
+                                        <em id="seeTK" style="float:none;line-height: 30px;margin-left: 4px;">已经阅读并同意 <a href="user/agreement" target="_blank" style="float:none;" >用户协议</a>
+                                        </em>
+                                    </li>
+                                </ul>
+                            </td>
+                            <td>
+                                <div class="errorMessage">
+                                    <div id="reader_msg" class="tt" style="font:12px;"></div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right"></td>
+                            <td><input type="button" class="isgo-login-bt2" value="注&nbsp;&nbsp;&nbsp;&nbsp;册" id="regFormSubmit"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            </div>
+
+                        <div class="isgo-login-r isgo-s-r">
+                            <div class="login-r-top">
+                                <a href="#"><img src="/images/er.jpg" /></a>
+                                <h4>微信关注&nbsp;“享购微品汇”</h4>
+                                <p>查订单 查物流 乐享缤纷活动</p>
+                                <strong>我是享购会员？</strong>
+                                <strong>
+                                    <a href="/login.html" class="loginButton">马上登录</a>
+                                </strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+</body>
+</html>
