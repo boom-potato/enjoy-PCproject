@@ -2,9 +2,101 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="/css/registerCSS/detailone.css">
+    <link rel="stylesheet" type="text/css" href="/css/registerCSS/reset.css">
+    <link rel="stylesheet" type="text/css" href="/css/registerCSS/style.css">
 </head>
-<body>
-    <h1>666</h1>
+<body class="news_logo">
+    <div class="logo_sign">
+        <div class="logo_banner">
+            <a href="/index.html"><img src="/images/logo.png"/></a>
+        </div>
+        <div class="logo_main">
+            <div class="isgo-login-l">
+                <div class="ctab clearfix">
+                    <ul class="clearfix">
+                        <li id="one2">
+                            <a href="">手机快捷登录</a>
+                        </li>
+                        <li id="one1" class="current">
+                            <a href="/html/login.html">邮箱/手机号登录</a>
+                        </li>
+                    </ul>
+                </div>
+                <h3>欢迎登录</h3>
+                <form id="loginForm" method="post" action="login">
+                    <input type="hidden" name="orderadd" value="">
+                    <input type="hidden" name="isInCart" value="">
+                    <input type="hidden" name="requestPageUrl" value="">
+                    <input type="hidden" name="isInit" value="">
+                    <input type="hidden" name="isUsercenter" value="">
+                    <input type="hidden" name="randomStr" value="887s" />
+                    <input name="noValidateCode" type="hidden" value = "true">
+                    <input name="loginWay" type="hidden" value="emailAndPhone">
+                    <input name="resouceLogin" type="hidden" value="login">
+                <table class="isgo-login-table" cellpadding="0" cellspacing="0" border="0">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="span1">账号： </div>
+                            </td>
+                            <td>
+                                <input placeholder="邮箱地址或已验证的手机号码" tabindex="0" type="text" class="isgo-login-text isgo-login-inputText" name="account" style="color: #333333;">
+                                <label class="tt ttRight"></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="span1">密码： </div>
+                            </td>
+                            <td>
+                                <input type="password" name="bean.password" maxlength="20" tabindex="0" value="" class="isgo-login-text isgo-login-inputText" id="login_pass">
+                                <label class="errorLogin tt ttRight"></label>
+                            </td>
+                        </tr>
+                        <tr style="display:none" id="validate_code_tr">
+                            <td>
+                                <div class="span1">验证码：</div>
+                            </td>
+                            <td>
+                                <input type="text" name="validateCode" maxlength="4" style="width:110px" class="isgo-login-text">
+                                <img id="validateImg" src=""  style="cursor:pointer;" class="img_yz" align="absmiddle">
+                                <span id="validateCode_msg" style="+float:none !important;float: right;text-align: left;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right"></td>
+                            <td>
+                                <li class="fuwu">
+                                    <input tabindex="0" type="checkbox" id="rememberId" name="autoLogin" value="" class="r_checkbox" checked="checked">
+                                    <em style="cursor:pointer;color:#666666">自动登录</em>
+                                    <a tabindex="0" style="margin-left:8px" href="findpass" >忘记密码？</a>
+                                </li>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right"></td>
+                            <td>
+                                <input tabindex="0" type="button" style="cursor:pointer;" class="isgo-login-bt" value="登&nbsp;&nbsp;&nbsp;&nbsp;录">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                </form>
+            </div>
+            <div class="isgo-login-r">
+                <div class="login-r-top">
+                    <a href="#"><img src="/images/er.jpg" /></a>
+                    <h4>微信关注&nbsp;“享购微品汇”</h4>
+                    <p>查订单 查物流 乐享缤纷活动</p>
+                    <p>还不是享购会员？</p>
+                    <strong>
+                        <a href="/html/register.html" class="loginButton">免费注册</a>
+                    </strong>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
