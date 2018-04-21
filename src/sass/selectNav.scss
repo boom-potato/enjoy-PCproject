@@ -1,0 +1,40 @@
+@charset "UTF-8";
+#selectBox{
+    width: 1200px;
+    height: 307px;
+    position: absolute;
+    left: 32px;
+    margin: 0 auto;
+    border-left: 1px solid #4ccdc2;
+    border-right: 1px solid #4ccdc2;
+    border-bottom: 1px solid #4ccdc2;
+    z-index: 99;
+    box-sizing: border-box;
+    background: white;
+    #selectNav{
+        width: 1200px;
+        height: 360px;
+        padding: 15px 0 0 49px;
+        #list01{
+            width: 94px;
+            height: 219px;
+            border: 1px solid;
+            h5{}
+            #li01{
+                 width: 35px;
+                 height: 25px;
+                 font-size: 12px;
+                float: left;
+                a{
+                    color: black;
+                   width: 26px;
+                   height: 19px;  
+                }
+               
+            }
+        }
+    }
+}
+
+
+
