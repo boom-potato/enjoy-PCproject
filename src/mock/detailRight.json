@@ -1,0 +1,16 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data":[
+			{
+				"id":1, 
+				"title":"壹芙法甜（Van Evelyne）法国进口纯手工制作马卡龙礼盒",
+				"state":"采用顶级原料烘焙，层次感分明，外酥内软，邂逅美好时刻！" ,
+				"price": 239.00
+				// "img":"/images/detail/prod1/14865253684924.jpg"
+			}
+			
+		]
+	}
+}

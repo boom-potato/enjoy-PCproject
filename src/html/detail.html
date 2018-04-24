@@ -4,13 +4,96 @@
 	<meta charset="UTF-8">
 	<title>详情页面</title>
 	<link rel="stylesheet" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/detail.css">
 </head>
 <script src="/lib/requirejs/require.js" data-main="/js/detail"></script>
 <body>
 	<!-- 头部复用 -->
 	<div class="header"></div>
 
+	<!-- 盒子模板 -->
+	<div class="wrap">
+		<div class="titleNav"><a href="">首页</a>><a href="">健康食品</a>><a href="">零食</a></div>
+		<div class="content">
+			<!-- 盒子左边 -->
+			<div class="contentLeft" id="photoZoom">
+				<!-- <script type="text/html" id="pic_temp"> -->
+                    <!-- {{each zoom as pic}} -->
+                    	<!-- <div class="id" style="display: none;">{{pic.id}}</div> -->
+                        <!-- <img id="zoomPic" class="bigPic" src="{{pic.bigPic}}" data-zoom-image="{{pic.bigPic}}"> -->
+						<img id="zoomPic" class="bigPic" src="/images/detail/prod1/14865253684924.jpg" data-zoom-image="/images/detail/prod1/14865253684924.jpg">
+						<div class="litileBox">
+							<ul>
+								<!-- <li><img class="imgone" src="{{pic.imgone}}"></li>
+								<li><img class="imgtwo" src="{{pic.imgtwo}}"></li>
+								<li><img class="imgthere" src="{{pic.imgthere}}"></li> -->
+								<li><img src="/images/detail/prod1/small_14865253674883.jpg" alt=""></li>
+								<li><img src="/images/detail/prod1/small_14865253684924.jpg" alt=""></li>
+								<li><img src="/images/detail/prod1/pop1_1486525364274.jpg" alt=""></li>
+							</ul>
+						</div>
+                    <!-- {{/each}} -->
+				<!-- </script> -->
+			</div>
+			<!-- 盒子右边 -->
+			<div class="contentRight">
+				<div class="rightBox">
+					<script type="text/html" id="detail_temp">
+						{{each products as prod}}
+							<h1 class="title">{{prod.title}}</h1>
+							<div class="state">{{prod.state}}</div>
+							<div class="price">￥{{prod.price}}</div>
+							<div class="count">
+								<span>数量：</span>
+								<div class="count1">
+									<button type="" id="minus">-</button>
+									<input type="text" name="" value="1" id="count2">
+									<button type="" id="add">+</button>
+								</div>
+							</div>
+                        {{/each}}
+					</script>
+					<h1 class="title">壹芙法甜（Van Evelyne）法国进口纯手工制作马卡龙礼盒12粒（口味随机发货）</h1>
+					<div class="state">采用顶级原料烘焙，层次感分明，外酥内软，邂逅美好时刻！</div>
+					<div class="price">￥239.00</div>
+					<div class="count">
+						<span>数量：</span>
+						<div class="count1">
+							<button type="" id="minus">-</button>
+							<input type="text" name="" value="1" id="count2">
+							<button type="" id="add">+</button>
+						</div>
+					</div>
 
+
+				</div>
+				<a href="" title="" id="addToCart">加入购物车</a>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- 商品详情 -->
+	<div class="introduce_wrap">
+		<div class="introduceLeft">
+			<ul class="introduceTitle">
+				<li style="background: #4CCDC2;"><a href="" title="">商品介绍</a></li>
+				<li><a href="" title="">商品评价</a></li>
+				<li><a href="" title="">商品咨询</a></li>
+			</ul>
+
+			<!-- 图片详情 -->
+			<div class="picBox">
+				<img src="/images/detail/prod1/1486525855439.jpg" alt="">
+				<img src="/images/detail/prod1/1486525839661.jpg" alt="">
+				<img src="/images/detail/prod1/1486525839663.jpg" alt="">
+				<img src="/images/detail/prod1/1486533771640.jpg" alt="">
+				<img src="/images/detail/prod1/1486525895087.jpg" alt="">
+				<img src="/images/detail/prod1/1486525895089.jpg" alt="">
+				<img src="/images/detail/prod1/1486530686851.jpg" alt="">
+			</div>
+		</div>
+	</div>
 
 	<!-- 尾部复用 -->
 	<div class="footer"></div>

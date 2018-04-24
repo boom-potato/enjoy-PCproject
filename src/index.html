@@ -68,11 +68,14 @@
 <!-- 人气单品 -->
 	<div class="popular">
 		<div class="popular_list"></div>
+		<!-- 模板创建 -->
 		<script type="text/html" id="popular_tem">
 			{{each popular as prod}}
 				<div class="popularBox">
 					<div class="id" style="display: none;">{{prod.id}}</div>
-					<a href=""><img src="{{prod.img}}" class="img"></a>
+					<a href="/html/detail.html?id=data.id target="_blank" class="chao">
+						<img src="{{prod.img}}" class="popular_img">
+					</a>
 					<div class="title">{{prod.title}}</div>
 					<div class="price">￥{{prod.price}}</div>
 					<span class="sale">{{prod.sale}}</span>

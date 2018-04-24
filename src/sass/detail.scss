@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+.wrap{
+	width: 1200px;
+	height: 641px;
+	margin: 0 auto;
+	margin-bottom: 66px;
+	border: 1px solid;
+	.titleNav{
+		color: #adadad;
+		margin-top: 10px;
+		/*float: left;*/
+		a{
+			padding-left: 4px;
+			font-size: 14px;
+			color: #adadad;
+			&:hover{
+				color: #4bcdc1;
+			}
+		}
+	}
+	.content{
+		
+		
+		
+		/*position: relative;*/
+		/* z-index: 99; */
+		margin-bottom: 23px;
+		.contentLeft{
+	        position: relative;
+		    width: 473px;
+			height: 600px;
+			border: 1px solid #DDDDDD;
+		   /* margin: 0 auto;*/
+		    text-align: center;
+		    margin-top: 2px; 
+		    float: left;
+		    margin-right: 30px;
+		    .bigPic{
+				width: 470px;
+				height: 470px;
+				
+		    }
+		    .litileBox{
+		    	width: 409px;
+		    	height: 100px;
+		    	border: 1px solid #dddddd;
+		    	ul{
+		    		/*line-height: 75px;*/
+		    		li{
+						width: 102px;
+					    height: 89px;
+					    cursor: pointer;
+					    padding-top: 11px;
+					    text-align: center;
+					    border-left: solid 1px #e6e6e6;
+					    border-right: solid 1px #e6e6e6;
+		    			float: left;
+
+		    		}
+		    	}
+		    }
+		}
+		.contentRight{
+			width: 680px;
+			height: 517px;
+			border:1px solid;
+			float: left;
+			box-sizing: border-box;
+			padding-left: 30px;
+			.rightBox{
+				width: 618px;
+				height: 288px;
+				border-buttom: 1px solid #e6e6e6;
+				.h1Tille{
+					margin: 5px 0;
+				    line-height: 46px;
+				    font-size: 20px;
+				    font-weight: normal;
+				    color: #000;
+				}
+				.state{
+					font-size: 12px;
+				    color: #e93a2e;
+				    line-height: 21px;
+				}
+				.price{
+					line-height: 18px;
+				    font-size: 24px;
+				    color: #e93a2e;
+				    margin-bottom: 16px;
+				    padding-top: 20px;
+				}
+				.count{
+					/*height: 50px;*/
+					/*border: 1px solid;*/
+					margin-top: 20px;
+					span{
+						float: left;
+						height: 28px;
+						line-height: 28px;
+					}
+					.count1{
+						border: 1px solid #cccccc;
+						width: 92px;
+						height: 28px;
+						float: left;
+						button{
+							width: 24px;
+							height: 28px;
+							cursor: pointer;
+							border:none;
+							outline: none;
+							/*float: left;*/
+						}
+						#count2{
+							width: 36px;
+							height: 25px;
+							/*float: left;*/
+							text-align: center;
+							outline: none;
+							border:none;
+						}
+					}
+					
+				}
+			}
+		}
+		#addToCart{
+			display: block;
+			width: 260px;
+			height: 50px;
+			font-size: 19px;
+			color: white;
+			line-height: 50px;
+			background: #e93a2e;
+			text-align: center;
+		}
+	}
+}
+
+
+/* 商品详情 */
+.introduce_wrap{
+	width: 1200px;
+	margin:0 auto;
+	.introduceLeft{
+		width: 902px;
+	    border: 1px solid #e1e1e1;
+	    box-sizing: border-box;
+		.introduceTitle{
+			width: 483px;
+			height: 41px;
+			padding-bottom: 40px;
+			/*border:1px solid;*/
+			li{
+				float: left;
+				width: 160px;
+				height: 41px;
+				line-height: 41px;
+				text-align: center;
+				border-right: 1px solid #e6e6e6;
+				border-bottom: 1px solid #e6e6e6;
+				&:hover{
+					background: #4CCDC2;
+					a{
+						&:hover{color:white;}
+					}
+				}
+				a{
+					color: black;
+					font-size: 14px;
+				}
+			}
+		}
+		.picBox{
+			padding-left: 44px;
+		    padding-bottom: 44px;
+		}
+	}
+}

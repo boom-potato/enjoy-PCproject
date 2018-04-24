@@ -1,5 +1,5 @@
 require(["config"], function(){
-	require(["jquery", "template", "load", "boot"], function($, template){
+	require(["jquery", "template", "load", "boot", "cookie"], function($, template){
 
         /* carousel */
         // $.getJSON("/mock/carousel.json", function(data){
@@ -83,6 +83,14 @@ require(["config"], function(){
             let html = template("healthNav_temp", data);
             $("#themes5").html(html);
         });
+
+
+    /***************************************************/
+    /* 人气单品：点击跳转不同页面，渲染不同数据 */ 
+
+   
+
+
 
 	});
 });

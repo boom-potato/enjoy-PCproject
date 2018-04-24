@@ -1,0 +1,21 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data":[
+			{
+				"picId":"1",
+				"bigPic":"/images/detail/prod1/14865253684924.jpg",
+				"imgone":"/images/detail/prod1/small_14865253674883.jpg",
+				"imgtwo":"/images/detail/prod1/small_14865253684924.jpg",
+				"imgthere":"/images/detail/prod1/pop1_1486525364274.jpg"
+			}
+			// {
+			// 	"picId" :"2",
+			// 	"bigPic":"/images/detail/prod2/1468445562969.jpg",
+			// 	"imgone":"/images/detail/prod2/pop1_1498445562969.jpg"
+				
+			// }
+		]
+	}
+}
