@@ -12,62 +12,42 @@
 	<div class="header"></div>
 
 	<!-- 盒子模板 -->
+	<div class="bigWrap"></div>
+<script type="text/html" id="detail_temp">
+	{{each products as prod}}
 	<div class="wrap">
-		<div class="titleNav"><a href="">首页</a>><a href="">健康食品</a>><a href="">零食</a></div>
+		<div class="titleNav"><a href="/index.html">首页</a>><a href="">健康食品</a>><a href="">零食</a></div>
 		<div class="content">
 			<!-- 盒子左边 -->
 			<div class="contentLeft" id="photoZoom">
-				<!-- <script type="text/html" id="pic_temp"> -->
-                    <!-- {{each zoom as pic}} -->
-                    	<!-- <div class="id" style="display: none;">{{pic.id}}</div> -->
-                        <!-- <img id="zoomPic" class="bigPic" src="{{pic.bigPic}}" data-zoom-image="{{pic.bigPic}}"> -->
-						<img id="zoomPic" class="bigPic" src="/images/detail/prod1/14865253684924.jpg" data-zoom-image="/images/detail/prod1/14865253684924.jpg">
+				<img id="zoomPic" class="bigPic" src="{{prod.bigPic}}" data-zoom-image="{{prod.bigPic}}">
 						<div class="litileBox">
 							<ul>
-								<!-- <li><img class="imgone" src="{{pic.imgone}}"></li>
-								<li><img class="imgtwo" src="{{pic.imgtwo}}"></li>
-								<li><img class="imgthere" src="{{pic.imgthere}}"></li> -->
-								<li><img src="/images/detail/prod1/small_14865253674883.jpg" alt=""></li>
-								<li><img src="/images/detail/prod1/small_14865253684924.jpg" alt=""></li>
-								<li><img src="/images/detail/prod1/pop1_1486525364274.jpg" alt=""></li>
+								<li><img class="img1" src="{{prod.img1}}"></li>
+								<li><img class="img2" src="{{prod.img2}}"></li>
+								<li><img class="img3" src="{{prod.img3}}"></li>
+
 							</ul>
 						</div>
-                    <!-- {{/each}} -->
-				<!-- </script> -->
+                   
 			</div>
 			<!-- 盒子右边 -->
 			<div class="contentRight">
 				<div class="rightBox">
-					<script type="text/html" id="detail_temp">
-						{{each products as prod}}
-							<h1 class="title">{{prod.title}}</h1>
-							<div class="state">{{prod.state}}</div>
-							<div class="price">￥{{prod.price}}</div>
-							<div class="count">
-								<span>数量：</span>
-								<div class="count1">
-									<button type="" id="minus">-</button>
-									<input type="text" name="" value="1" id="count2">
-									<button type="" id="add">+</button>
-								</div>
-							</div>
-                        {{/each}}
-					</script>
-					<h1 class="title">壹芙法甜（Van Evelyne）法国进口纯手工制作马卡龙礼盒12粒（口味随机发货）</h1>
-					<div class="state">采用顶级原料烘焙，层次感分明，外酥内软，邂逅美好时刻！</div>
-					<div class="price">￥239.00</div>
+					<div class="id" style="display: none;">{{prod.id}}</div>
+					<h1 class="title">{{prod.title}}</h1>
+					<div class="state">{{prod.state}}</div>
+					<div class="price">￥{{(prod.price).toFixed(2)}}</div>
 					<div class="count">
 						<span>数量：</span>
 						<div class="count1">
 							<button type="" id="minus">-</button>
-							<input type="text" name="" value="1" id="count2">
+							<input type="text" size="2" value="{{prod.amount}}"  class="amount" id="count2">
 							<button type="" id="add">+</button>
 						</div>
 					</div>
-
-
 				</div>
-				<a href="" title="" id="addToCart">加入购物车</a>
+				<a href="javascript:void(0);" id="addToCart">加入购物车</a>
 			</div>
 		</div>
 	</div>
@@ -84,16 +64,18 @@
 
 			<!-- 图片详情 -->
 			<div class="picBox">
-				<img src="/images/detail/prod1/1486525855439.jpg" alt="">
-				<img src="/images/detail/prod1/1486525839661.jpg" alt="">
-				<img src="/images/detail/prod1/1486525839663.jpg" alt="">
-				<img src="/images/detail/prod1/1486533771640.jpg" alt="">
-				<img src="/images/detail/prod1/1486525895087.jpg" alt="">
-				<img src="/images/detail/prod1/1486525895089.jpg" alt="">
-				<img src="/images/detail/prod1/1486530686851.jpg" alt="">
+				<img class="img4" src="{{prod.img4}}">
+				<img class="img5" src="{{prod.img5}}">
+				<img class="img6" src="{{prod.img6}}">
+				<img class="img7" src="{{prod.img7}}">
+				<img class="img8" src="{{prod.img8}}">
+				<img class="img9" src="{{prod.img9}}">
+				<img class="img10" src="{{prod.img10}}">
 			</div>
 		</div>
 	</div>
+	{{/each}}
+</script>
 
 	<!-- 尾部复用 -->
 	<div class="footer"></div>
