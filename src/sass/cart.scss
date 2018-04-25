@@ -73,19 +73,24 @@
 							height: 57px;
 						}
 						a{
+							display: block;
+							width: 330px;
 							p{
+								width: 330px;
 								color: black;
+								position: relative;
+								left: 145px;
 								&:hover{color:#4BCDC1;}
 							}
 						}
 						b{
 							position: relative;
-    						top: 20px;
+    						top: 5px;
 						}
 					}
 					.prodNum{
 						position: relative;
-						left: 70px;
+						left: 40px;
 						img{
 							float: left;
     						cursor: pointer;	
@@ -110,10 +115,11 @@
 					}
     			}
     		}
+
     	}
     	.goodsBank{
 		    height: 82px;
-		    display: inline;
+		    
 		    text-align: right;
 		    line-height: 28px;
 		    margin-top: 20px;

@@ -17,18 +17,20 @@
 	<div class="empty_wrap">
 		<div class="empty_goods">
 			<dl>
-				<dt><img src="/images/cart_bj.jpg" alt=""></dt>
+				<dt><img src="/images/cart_bj.jpg"></dt>
 				<dd>购物车内暂时没有商品，您可以<a href="/index.html">去首页</a>挑选喜欢的商品</dd>
 			</dl>
 		</div>
 	</div>
+
+
+
 
 	<!-- 当购物车有商品时 -->
 	<div class="goods_wrap">
 		<div class="goodsContent">
 			<h2>全部商品</h2>
 			<table id="goods_table">
-				
 				<thead>
 					<tr>
 						<th width="92"><input type="checkbox" id="selectAll"></th>
@@ -47,38 +49,37 @@
 						<tr class="prodTr">
 							<td class="id" style="display: none;">{{prod.id}}</td>
 							<td>
-								<input type="checkbox" checked="checked" class="prodCheck">
+								<input type="checkbox" class="prodCheck">
 							</td>
 							<td>
 								<img src="{{prod.img}}">
-								<a href=""><p>{{prod.title}}</p></a>
+								<a href="/html/detail.html?{{prod.id}}"><p>{{prod.title}}</p></a>
 								<b>商品编号：2000016842</b>
 							</td>
 							<td>{{prod.price}}</td>
 							<td class="prodNum">
-								<img src="/images/jian.jpg">
-								<input type="text" value="{{prod.amount}}" id="textMiddle">
-								<img src="/images/jia.jpg">
+								<img src="/images/jian.jpg" class="minus">
+								<input type="text" value="{{prod.amount}}" id="textMiddle" class="amount">
+								<img src="/images/jia.jpg" class="add">
 							</td>
-							<td>{{prod.price}}</td>
+							<td class="sub">{{(prod.price*prod.amount).toFixed(2)}}</td>
 							<td>—</td>
 							<td><a href="javascript:void(0);" class="del">删除</a></td>
 						</tr>
 						{{/each}}
 					</script>
-					
 				</tbody>
 			</table>
-			<div class="goodsBank">
-				<div class="bankl">
-					<p>已选择<span id="prodNumber">3</span>件商品</p>
-					<strong>总计（不含运费）:<span id="prodPrice">￥666.00</span></strong>
-					<p>订单参与免运费促销</p>
-				</div>
-				<div class="bankr">
-					<a href="javascript:void(0);"><img src="/images/bank_btn.jpg"></a>
-				</div>	
-			</div>
+					<div class="goodsBank">
+						<div class="bankl">
+							<p>已选择<span id="prodNumber">3</span>件商品</p>
+							<strong>总计（不含运费）:<span id="prodPrice">0.00</span></strong>
+							<p>订单参与免运费促销</p>
+						</div>
+						<div class="bankr">
+							<a href="javascript:void(0);"><img src="/images/bank_btn.jpg"></a>
+						</div>	
+					</div>
 		</div>
 	</div>
 

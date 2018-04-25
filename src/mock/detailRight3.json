@@ -1,0 +1,29 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data":[
+			{	
+				"id":3, 
+				"title":"LIVING-TALK ARC 咖啡杯碟套装",
+				"state":"别致雅观的设计，贴心的杯握，让您享受雅致生活！",
+				"price": 138.00,
+				"amount": 1,
+				"bigPic":"/images/detail/prod3/1409882990950.jpg",
+				"img1":"/images/detail/prod3/small_14098829925232.jpg",
+				"img2":"/images/detail/prod3/small_14098829932373.jpg",
+				"img3":"/images/detail/prod3/small_14098829939544.jpg",
+				"img4":"/images/detail/prod3/1409822316535.jpg",
+				"img5":"/images/detail/prod3/1441611030089.jpg",
+				"img6":"/images/detail/prod3/1409900627872.jpg",
+				"img7":"/images/detail/prod3/1409900617752.jpg",
+				"img8":"/images/detail/prod3/1409900617753.jpg",
+				"img9":"/images/detail/prod3/1409900617755.jpg",
+				"img10":"/images/detail/prod3/1441611042679.jpg",
+				"img11":"",
+				"img12":""
+			}
+			
+		]
+	}
+}

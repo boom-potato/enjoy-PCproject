@@ -1,0 +1,29 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data":[
+			{	
+				"id":2, 
+				"title":"利仁（Liven）不锈钢电热水壶",
+				"state":"",
+				"price": 99.00,
+				"amount": 1,
+				"bigPic":"/images/detail/prod2/1498445562969.jpg",
+				"img1":"/images/detail/prod2/pop1_1498445562969.jpg",
+				"img2":"",
+				"img3":"",
+				"img4":"/images/detail/prod2/1498445586939.jpg",
+				"img5":"",
+				"img6":"",
+				"img7":"",
+				"img8":"",
+				"img9":"",
+				"img10":"",
+				"img11":"",
+				"img12":""
+			}
+			
+		]
+	}
+}

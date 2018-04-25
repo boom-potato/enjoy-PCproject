@@ -1,0 +1,29 @@
+{
+	"res_code":0,
+	"res_error":"",
+	"res_body":{
+		"data":[
+			{	
+				"id":4, 
+				"title":"Tiger/虎牌儿童保温保冷吸管杯 MML-C06C 630ML 小狮子",
+				"state":"",
+				"price": 139.00,
+				"amount": 1,
+				"bigPic":"/images/detail/prod4/1505457752754.jpg",
+				"img1":"/images/detail/prod4/pop1_1505457752754.jpg",
+				"img2":"/images/detail/prod4/small_15054577549413.jpg",
+				"img3":"/images/detail/prod4/small_15054577557124.jpg",
+				"img4":"/images/detail/prod4/1505458762441.jpg",
+				"img5":"/images/detail/prod4/1505458762442.jpg",
+				"img6":"/images/detail/prod4/1505458904246.jpg",
+				"img7":"/images/detail/prod4/1505458958947.jpg",
+				"img8":"/images/detail/prod4/1505457752754.jpg",
+				"img9":"/images/detail/prod4/1505458775556.jpg",
+				"img10":"/images/detail/prod4/1505458794457.jpg",
+				"img11":"/images/detail/prod4/1505458794458.jpg",
+				"img12":"/images/detail/prod4/1505458794460.jpg"
+			}
+			
+		]
+	}
+}

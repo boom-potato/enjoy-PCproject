@@ -1,5 +1,5 @@
 require(["config"],function(){
-	require(["jquery", "template", "zoom", "load"],function($,template){
+	require(["jquery", "template", "zoom", "load", "cookie"],function($,template){
 
 		// 加载头部尾部
 		$(".header").load("/html/include/header.html");
@@ -7,13 +7,29 @@ require(["config"],function(){
 
 		/***************************************************/ 
 		/* 商品右边的模板渲染 */
-		$.getJSON("/mock/detailRight.json", function(data){
-			data = {products : data.res_body.data};
-			let html = template("detail_temp", data);
-			$(".bigWrap").html(html);
 
+		/* 读取假数据的id,根据id把旗下的内容全部加载出来 */
 
-		// 放大镜效果
+		let url = location.toString(),
+			state = Number(url.indexOf("?")+1),
+			id = url.slice(state);
+		// console.log(url);
+		// console.log(state);
+		// console.log(id);
+		let news = "/mock/detailRight"+id+".json";
+		$.getJSON(news, function(data){
+			data = data.res_body.data;
+			data.forEach(function(item){
+				console.log(item.id, id)
+				if(item.id==id){
+					var html = template("detail_temp",{prod : item});
+					// console.log(html);
+					$(".bigWrap").html(html);
+					};
+				});
+			
+
+		/* 放大镜效果 */ 
 		$("#zoomPic").elevateZoom();
 
 
@@ -51,7 +67,7 @@ require(["config"],function(){
 
 			}
 			
-			 console.log(product);
+			 // console.log(product);
 
 			 /* cookie */ 
 			$.cookie.json = true;
@@ -65,7 +81,7 @@ require(["config"],function(){
 
 			//	重新保存在cookie中
 			$.cookie("products", _products, {expires:7, path:"/"});
-			
+			alert("加入购物车成功！");
 		})
 
 		

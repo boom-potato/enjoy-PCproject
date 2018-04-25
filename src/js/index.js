@@ -1,12 +1,6 @@
 require(["config"], function(){
 	require(["jquery", "template", "load", "boot", "cookie"], function($, template){
 
-        /* carousel */
-        // $.getJSON("/mock/carousel.json", function(data){
-        //     data = {carousel : data.res_body.data};
-        //     let html = template("carousel_temp", data);
-        //     $(".banner_inner").prepend(html);
-        // })
         /* 加载推荐商品 */ 
 		$.getJSON("/mock/popular.json", function(data){
 			data = {popular : data.res_body.data};
@@ -85,8 +79,7 @@ require(["config"], function(){
         });
 
 
-    /***************************************************/
-    /* 人气单品：点击跳转不同页面，渲染不同数据 */ 
+    
 
         
 

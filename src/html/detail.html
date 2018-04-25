@@ -14,7 +14,6 @@
 	<!-- 盒子模板 -->
 	<div class="bigWrap"></div>
 <script type="text/html" id="detail_temp">
-	{{each products as prod}}
 	<div class="wrap">
 		<div class="titleNav"><a href="/index.html">首页</a>><a href="">健康食品</a>><a href="">零食</a></div>
 		<div class="content">
@@ -37,7 +36,7 @@
 					<div class="id" style="display: none;">{{prod.id}}</div>
 					<h1 class="title">{{prod.title}}</h1>
 					<div class="state">{{prod.state}}</div>
-					<div class="price">￥{{(prod.price).toFixed(2)}}</div>
+					<div class="price">{{(prod.price).toFixed(2)}}</div>
 					<div class="count">
 						<span>数量：</span>
 						<div class="count1">
@@ -71,10 +70,11 @@
 				<img class="img8" src="{{prod.img8}}">
 				<img class="img9" src="{{prod.img9}}">
 				<img class="img10" src="{{prod.img10}}">
+				<img class="img11" src="{{prod.img11}}">
+				<img class="img12" src="{{prod.img12}}">
 			</div>
 		</div>
 	</div>
-	{{/each}}
 </script>
 
 	<!-- 尾部复用 -->

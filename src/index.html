@@ -73,7 +73,7 @@
 			{{each popular as prod}}
 				<div class="popularBox">
 					<div class="id" style="display: none;">{{prod.id}}</div>
-					<a href="/html/detail.html?id=data.id target="_blank" class="chao">
+					<a href="/html/detail.html?{{prod.id}}" target="_blank" class="chao">
 						<img src="{{prod.img}}" class="popular_img">
 					</a>
 					<div class="title">{{prod.title}}</div>
@@ -121,7 +121,8 @@
 						{{each health as prod}}
 							<div class="prod">
 								<div class="id" style="display: none;">{{prod.id}}</div>
-								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<a href="/html/detail.html?{{prod.id}}" target="_blank">	<img class="img" src="{{prod.img}}">
+								</a>
 								<div class="title">{{prod.title}}</div>
 								<div class="price">￥{{prod.price}}</div>
 								<div class="sale">{{prod.sale}}</div>
@@ -168,9 +169,11 @@
 						{{each health as prod}}
 							<div class="prod">
 								<div class="id" style="display: none;">{{prod.id}}</div>
-								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<a href="/html/detail.html?{{prod.id}}" target="_blank">
+									<img class="img" src="{{prod.img}}">
+								</a>
 								<div class="title">{{prod.title}}</div>
-								<div class="price">￥{{prod.price}}</div>
+								<div class="price">{{prod.price}}</div>
 								<div class="sale">{{prod.sale}}</div>
 							</div>
 						{{/each}}
@@ -214,9 +217,11 @@
 						{{each health as prod}}
 							<div class="prod">
 								<div class="id" style="display: none;">{{prod.id}}</div>
-								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<a href="/html/detail.html?{{prod.id}}" target="_blank">
+									<img class="img" src="{{prod.img}}">
+								</a>
 								<div class="title">{{prod.title}}</div>
-								<div class="price">￥{{prod.price}}</div>
+								<div class="price">{{prod.price}}</div>
 								<div class="sale">{{prod.sale}}</div>
 							</div>
 						{{/each}}
@@ -260,9 +265,11 @@
 						{{each health as prod}}
 							<div class="prod">
 								<div class="id" style="display: none;">{{prod.id}}</div>
-								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<a href="/html/detail.html?{{prod.id}}" target="_blank">
+									<img class="img" src="{{prod.img}}">
+								</a>
 								<div class="title">{{prod.title}}</div>
-								<div class="price">￥{{prod.price}}</div>
+								<div class="price">{{prod.price}}</div>
 								<div class="sale">{{prod.sale}}</div>
 							</div>
 						{{/each}}
@@ -306,9 +313,11 @@
 						{{each health as prod}}
 							<div class="prod">
 								<div class="id" style="display: none;">{{prod.id}}</div>
-								<a href=""><img class="img" src="{{prod.img}}"></a>
+								<a href="/html/detail.html?{{prod.id}}" target="_blank">
+									<img class="img" src="{{prod.img}}">
+								</a>
 								<div class="title">{{prod.title}}</div>
-								<div class="price">￥{{prod.price}}</div>
+								<div class="price">{{prod.price}}</div>
 								<div class="sale">{{prod.sale}}</div>
 							</div>
 						{{/each}}
