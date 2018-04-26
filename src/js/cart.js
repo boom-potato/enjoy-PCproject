@@ -102,7 +102,7 @@ require(["config"], function(){
 			// console.log(status);
 			// 设置所有行的复选框为选中状态
 			$(".prodCheck").prop("checked", status);
-
+			
 			// 计算合计
 			calcTotal();
 		});
@@ -120,9 +120,10 @@ require(["config"], function(){
 			let total = 0;
 			$(".prodCheck:checked").each(function(){
 				total += Number($(this).parents("tr").children(".sub").text());
-				console.log(total);
+				// console.log(total);
 			});
-			console.log($("this").parent().parent().children("#prodPrice").text(total));
+			// console.log($("#prodPrice"))
+			$("#prodPrice").text(total);
 		};
 
 

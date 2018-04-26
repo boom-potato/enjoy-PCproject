@@ -1,19 +1,20 @@
 require(["config"], function(){
     require(["jquery", "cookie"], function($){
 
-        $("#loginForm").click(function(){ 
+        $(".isgo-login-bt").submit(function(){ 
+            return false
           $.ajax({
+                url : "http://localhost:8080/php/login.php",
                 type : "post",
-                url : "http://localhost:8080/login.php",
-                data : $(this).serialize(),
+                data : $("#loginForm").serialize(),
                 dataType : "json",
                 success : function(data){
-                    return false
+
                     console.log(data)
-                   /* if (data.res_code === 0) {
+                    /*if (data.res_code === 0) {
 
                         console.log(data)
-                        return false;
+                        // return false;
                         // 保存成功的用户信息到 cookie 中
                         // $.cookie.json = true; 
                         // $.cookie("loginUser", data.res_body, {path:"/"});
@@ -25,7 +26,7 @@ require(["config"], function(){
                     }*/
                 }
             }) 
-            return false;      
+            // return false;      
          });
         
     })
