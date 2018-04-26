@@ -28,7 +28,7 @@
                     </div>
             <h3>新会员注册</h3>
             <div class="clear"></div>
-                <form id="regForm" name="userRegForm" method="post" action="register" >
+                <form id="regForm" name="userRegForm" method="post">
                     <input type="hidden" name="registerWay" value="1">
                     <input type="hidden" name="registerWayIphone" value="1">
                     <input type="hidden" name="bean.customerType" value="0">
@@ -44,7 +44,7 @@
                             	<div class="span1">账号：</div>
                             </td>
                             <td>
-                                <input type="text" name="account" maxlength="35" id="focusCur" class="isgo-login-text" placeholder="请输入邮箱号">
+                                <input type="text" name="phone" maxlength="35" id="focusCur" class="isgo-login-text" placeholder="请输入邮箱号">
                                 <input type="hidden" name="iserror" value="0">
                             </td>
                             <td>
@@ -55,7 +55,7 @@
                             <td align="right">
                             	<div class="span1">设置密码：</div></td>
                             <td>
-                            	<input type="password" id="passwordInput" name="bean.password" class="isgo-login-text" maxlength="20">
+                            	<input type="password" id="passwordInput" name="password" class="isgo-login-text" maxlength="20">
                             </td>
                             <td>
                                 <div class="tt"></div>
@@ -75,13 +75,6 @@
                             <td>
                                 <input type="text" name="validateCode" maxlength="4" style="width:110px" class="isgo-login-text"/>
                                 <img class="img_yz" id="validateImg">
-                                <!-- <script type="text/javascript">
-                                $(document).ready(function () {
-                                flushValidateCode('validateImg','');
-                                var oInput = document.getElementById("focusCur");
-                                oInput.focus();
-                                });
-                                </script> -->
                             </td>
                             <td>
                                 <div class="tt" id="validateCode_msg"></div>
