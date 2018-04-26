@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":12, 
+                "title":"Boii本因六角形时尚保温杯 450ml ",
+                "state":"",
+                "price": 268.00,
+                "amount": 1,
+                "bigPic":"/images/detail/prod12/1513654021034.jpg",
+                "img1":"/images/detail/prod12/pop1_1513654021034.jpg",
+                "img2":"/images/detail/prod12/small_15136540226691.jpg",
+                "img3":"/images/detail/prod12/small_15136540234622.jpg",
+                "img4":"/images/detail/prod12/1513654506835.jpg",
+                "img5":"/images/detail/prod12/1513654506837.jpg",
+                "img6":"/images/detail/prod12/1513654610526.jpg",
+                "img7":"/images/detail/prod12/1513654610527.jpg",
+                "img8":"/images/detail/prod12/1513654610528.jpg",
+                "img9":"/images/detail/prod12/1513654610530.jpg",
+                "img10":"/images/detail/prod12/1513654610531.jpg",
+                "img11":"/images/detail/prod12/1513654653184.jpg",
+                "img12":"/images/detail/prod12/1513654653189.jpg"
+            }
+            
+        ]
+    }
+}

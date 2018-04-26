@@ -60,7 +60,7 @@ require(["config"],function(){
 			// console.log(that);
 			let product = {
 				id:$(that).find(".id").text(),
-				img:$(that).find(".img2").attr("src"),
+				img:$(that).find(".img1").attr("src"),
 				title:$(that).find(".title").text(),
 				price:$(that).find(".price").text(),
 				amount:1
@@ -99,6 +99,6 @@ require(["config"],function(){
 
 
 
-		});
-	});
-});
+		})
+	})
+})

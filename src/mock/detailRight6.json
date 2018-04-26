@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":6, 
+                "title":"北欧欧慕 nathome 家用迷你电烤箱",
+                "state":"",
+                "price": 238.00,
+                "amount": 1,
+                "bigPic":"/images/detail/prod6/1498445225759.jpg",
+                "img1":"/images/detail/prod6/pop1_1498445225759.jpg",
+                "img2":"",
+                "img3":"",
+                "img4":"/images/detail/prod6/1498445248829.jpg",
+                "img5":"",
+                "img6":"",
+                "img7":"",
+                "img8":"",
+                "img9":"",
+                "img10":"",
+                "img11":"",
+                "img12":""
+            }
+            
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":10, 
+                "title":"LSA INZA 系列 蓝色天空茶蜡座",
+                "state":"",
+                "price": 730,
+                "amount": 1,
+                "bigPic":"/images/detail/prod10/1415590576326.jpg",
+                "img1":"/images/detail/prod10/pop1_1415590576326.jpg",
+                "img2":"/images/detail/prod10/small_14155905786752.jpg",
+                "img3":"/images/detail/prod10/small_14155905795863.jpg",
+                "img4":"/images/detail/prod10/1415259268405.jpg",
+                "img5":"/images/detail/prod10/1415259460687.jpg",
+                "img6":"/images/detail/prod10/1415259460688.jpg",
+                "img7":"/images/detail/prod10/1415259460689.jpg",
+                "img8":"/images/detail/prod10/1415590885260.jpg",
+                "img9":"/images/detail/prod10/1415590954636.jpg",
+                "img10":"/images/detail/prod10/1415591079773.jpg",
+                "img11":"/images/detail/prod10/1415591079774.jpg",
+                "img12":"/images/detail/prod10/1441607149646.jpg"
+            }
+            
+        ]
+    }
+}

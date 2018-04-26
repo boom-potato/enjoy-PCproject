@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":7, 
+                "title":"利仁（Liven）空气炸锅 智能多功能锅",
+                "state":"",
+                "price": 238.00,
+                "amount": 1,
+                "bigPic":"/images/detail/prod7/1498445744240.jpg",
+                "img1":"/images/detail/prod7/pop1_1498445744240.jpg",
+                "img2":"",
+                "img3":"",
+                "img4":"/images/detail/prod7/1498445769982.jpg",
+                "img5":"",
+                "img6":"",
+                "img7":"",
+                "img8":"",
+                "img9":"",
+                "img10":"",
+                "img11":"",
+                "img12":""
+            }
+            
+        ]
+    }
+}

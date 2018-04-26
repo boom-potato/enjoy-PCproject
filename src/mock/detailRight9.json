@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":9, 
+                "title":"德世朗 DFS-TZ102B 铁离子金钢套锅三件套（仅限明火使用）",
+                "state":"",
+                "price": 299.00,
+                "amount": 1,
+                "bigPic":"/images/detail/prod9/1503457441646.jpg",
+                "img1":"/images/detail/prod9/pop1_1503457441646.jpg",
+                "img2":"/images/detail/prod9/small_15034574437633.jpg",
+                "img3":"/images/detail/prod9/small_15034574446404.jpg",
+                "img4":"/images/detail/prod9/1503457721541.jpg",
+                "img5":"/images/detail/prod9/1503457721542.jpg",
+                "img6":"/images/detail/prod9/1503457779274.jpg",
+                "img7":"/images/detail/prod9/1503457779282.jpg",
+                "img8":"/images/detail/prod9/1503457779283.jpg",
+                "img9":"/images/detail/prod9/1503457779284.jpg",
+                "img10":"/images/detail/prod9/1503469919900.jpg",
+                "img11":"",
+                "img12":""
+            }
+            
+        ]
+    }
+}

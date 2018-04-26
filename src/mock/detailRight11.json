@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":11, 
+                "title":"利仁(Liven) LR-J3003 家用电饼档烤盘时尚炫彩煎烤机",
+                "state":"",
+                "price": 199.00,
+                "amount": 1,
+                "bigPic":"../images/detail/prod11/1474182593406.jpg",
+                "img1":"../images/detail/prod11/pop1_1474182593406.jpg",
+                "img2":"",
+                "img3":"",
+                "img4":"../images/detail/prod11/1474182626361.jpg",
+                "img5":"../images/detail/prod11/1474182626365.jpg",
+                "img6":"../images/detail/prod11/1474182626369.jpg",
+                "img7":"",
+                "img8":"",
+                "img9":"",
+                "img10":"",
+                "img11":"",
+                "img12":""
+            }
+            
+        ]
+    }
+}

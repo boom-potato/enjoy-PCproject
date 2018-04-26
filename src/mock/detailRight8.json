@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":8, 
+                "title":"美国康宁 耐热玻璃汤锅",
+                "state":"",
+                "price": 379.00,
+                "amount": 1,
+                "bigPic":"/images/detail/prod8/1479976646203.jpg",
+                "img1":"/images/detail/prod8/pop1_1479976646203.jpg",
+                "img2":"/images/detail/prod8/small_14799766482602.jpg",
+                "img3":"/images/detail/prod8/small_14799766490993.jpg",
+                "img4":"/images/detail/prod8/1479976735467.jpg",
+                "img5":"/images/detail/prod8/1479976735471.jpg",
+                "img6":"/images/detail/prod8/1479976735474.jpg",
+                "img7":"/images/detail/prod8/1479976763206.jpg",
+                "img8":"/images/detail/prod8/1479976763210.jpg",
+                "img9":"/images/detail/prod8/1479976763214.jpg",
+                "img10":"/images/detail/prod8/1479976795029.jpg",
+                "img11":"",
+                "img12":""
+            }
+            
+        ]
+    }
+}

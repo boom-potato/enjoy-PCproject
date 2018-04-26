@@ -1,0 +1,29 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body":{
+        "data":[
+            {   
+                "id":5, 
+                "title":"CoClean 可穿戴净化器 独立版 S1",
+                "state":"",
+                "price": 399.00,
+                "amount": 1,
+                "bigPic":"/images/detail/prod5/1479112568499.jpg",
+                "img1":"/images/detail/prod5/pop1_1479112568499.jpg",
+                "img2":"",
+                "img3":"",
+                "img4":"/images/detail/prod5/1479112588979.jpg",
+                "img5":"/images/detail/prod5/1479112588979.jpg",
+                "img6":"/images/detail/prod5/1479112588981.jpg",
+                "img7":"/images/detail/prod5/1479112588982.jpg",
+                "img8":"",
+                "img9":"",
+                "img10":"",
+                "img11":"",
+                "img12":""
+            }
+            
+        ]
+    }
+}
