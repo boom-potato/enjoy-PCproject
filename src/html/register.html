@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="/css/registerCSS/reset.css">
     <link rel="stylesheet" type="text/css" href="/css/registerCSS/style.css">
 	<!-- <script src="/lib/jquery/jquery-1.12.4.min.js"></script> -->
+    <script src="/lib/requirejs/require.js" data-main="/js/register"></script>
 </head>
 <body class="news_logo">
 	<div class="logo_sign">
@@ -28,13 +29,13 @@
                     </div>
             <h3>新会员注册</h3>
             <div class="clear"></div>
-                <form id="regForm" name="userRegForm" method="post">
-                    <input type="hidden" name="registerWay" value="1">
+                <form id="regForm" name="userRegForm" method="post" action="http://localhost/register.php">
+                    <!-- <input type="hidden" name="registerWay" value="1">
                     <input type="hidden" name="registerWayIphone" value="1">
                     <input type="hidden" name="bean.customerType" value="0">
                     <input type="hidden" name="bean.levelId" value="system">
                     <input type="hidden" name="userId" value="" />
-                    <input type="hidden" name="bean.name" class="login-input">
+                    <input type="hidden" name="bean.name" class="login-input"> -->
                 <div id="error_div" style="padding-bottom: 10px;margin: 10px 95px;">
                 </div>
                 <table class="isgo-login-table" cellpadding="0" cellspacing="0" border="0">
@@ -45,7 +46,7 @@
                             </td>
                             <td>
                                 <input type="text" name="phone" maxlength="35" id="focusCur" class="isgo-login-text" placeholder="请输入邮箱号">
-                                <input type="hidden" name="iserror" value="0">
+                                <span class="email_info"></span>
                             </td>
                             <td>
                                 <div class="tt"></div>
@@ -115,7 +116,7 @@
                                 <p>查订单 查物流 乐享缤纷活动</p>
                                 <strong>我是享购会员？</strong>
                                 <strong>
-                                    <a href="/login.html" class="loginButton">马上登录</a>
+                                    <a href="/html/login.html" class="loginButton">马上登录</a>
                                 </strong>
                             </div>
                         </div>
